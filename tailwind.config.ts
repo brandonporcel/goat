@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        contrast: ["var(--font-contrast-regular)"],
+        contrastCondensed: ["var(--font-contrast-condensed)"],
+        contrastExtended: ["var(--font-contrast-extended)"],
+      },
     },
   },
   plugins: [],
