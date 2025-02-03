@@ -1,0 +1,11 @@
+.dots {
+    height: 1em; /* very important */
+    overflow: hidden; /* very important */
+    word-wrap: break-word; /* where magic happens */
+    color: #999;
+    letter-spacing: 5px;
+  }
+  
+  .dots:after {
+    content: '...........................................................';
+  }
