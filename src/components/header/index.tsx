@@ -2,13 +2,13 @@ import HeaderLink from "./link";
 import Logo from "./logo";
 const navLinks = [
   {
-    title: "Inventory",
+    title: "General",
     url: "/",
     id: "1",
   },
   {
-    title: "Collections",
-    url: "/collections",
+    title: "Calendar",
+    url: "/calendar",
     id: "2",
   },
   {
@@ -17,13 +17,13 @@ const navLinks = [
     id: "3",
   },
   {
-    title: "Craftsmanship",
-    url: "/craftsmanship",
+    title: "Philosophy",
+    url: "/philosophy",
     id: "4",
   },
   {
-    title: "Philosophy",
-    url: "/philosophy",
+    title: "More",
+    url: "/more",
     id: "5",
   },
 ];

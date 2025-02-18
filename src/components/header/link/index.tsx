@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const getCircleNumber = (num: string) => {
@@ -21,7 +22,8 @@ type HeaderLinkProps = {
 
 const HeaderLink = ({ title, id, url }: HeaderLinkProps) => {
   const [hover, setHover] = useState(false);
-  const active = url === location.pathname;
+  const pathname = usePathname();
+  const active = url === pathname;
 
   return (
     <li className="relative text-center">

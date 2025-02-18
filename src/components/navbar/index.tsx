@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./styles.module.css";
+
 const categories = [
   { name: "View All", number: 462 },
   { name: "SS/2025", number: 37 },
@@ -23,11 +24,15 @@ export default function SeasonNavBar() {
           <Link
             key={category.name}
             href={`/${category.name.toLowerCase().replace(/ /g, "-")}`}
-            className="flex justify-between hover:opacity-80 transition-opacity duration-75 text-base md:text-lg"
+            className={`${styles.link} hover:opacity-80 transition-opacity duration-75 text-base md:text-lg mb-2`}
           >
-            <span className="font-extralight">{category.name}</span>
+            <span className="font-extralight leading-none">
+              {category.name}
+            </span>
             <div className={styles.dots}></div>
-            <span className="font-extralight">{category.number}</span>
+            <span className="font-extralight leading-none">
+              {category.number}
+            </span>
           </Link>
         ))}
       </div>

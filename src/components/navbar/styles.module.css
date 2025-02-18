@@ -1,11 +1,18 @@
+.link {
+  display: flex;
+  align-items: end;
+  white-space: nowrap;
+}
+
 .dots {
-    height: 1em; /* very important */
-    overflow: hidden; /* very important */
-    word-wrap: break-word; /* where magic happens */
-    color: #999;
-    letter-spacing: 5px;
-  }
-  
-  .dots:after {
-    content: '...........................................................';
-  }
+  flex-grow: 1;
+  height: 2px;
+  background: repeating-linear-gradient(
+    to right,
+    #999,
+    #999 2px,
+    transparent 2px,
+    transparent 8px
+  );
+  margin: 0 8px;
+}
