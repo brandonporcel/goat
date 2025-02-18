@@ -1,26 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-
-// const ttContrast = localFont({
-//   src: [
-//     {
-//       path: "../../public/fonts/TTContrast-Regular.woff2",
-//       weight: "400",
-//       style: "normal",
-//     },
-//     {
-//       path: "../../public/fonts/TTContrast-Condensed.woff2",
-//       weight: "400",
-//       style: "condensed",
-//     },
-//     {
-//       path: "../../public/fonts/TTContrast-Extended.woff2",
-//       weight: "400",
-//       style: "expanded",
-//     },
-//   ],
-// });
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 const ttContrastRegular = localFont({
   src: "../../public/fonts/TTContrast-Regular.woff2",
@@ -101,7 +83,11 @@ export default function RootLayout({
       <body
         className={`${ttContrastRegular.className} ${ttContrastCondensed.variable} ${ttContrastExtended.variable} antialiased`}
       >
-        {children}
+        <div className="p-5 md:p-7 pb-0 md:pb-0 overflow-x-scroll">
+          <Header />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
