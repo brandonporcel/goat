@@ -21,11 +21,6 @@ const navLinks = [
     url: "/philosophy",
     id: "4",
   },
-  {
-    title: "More",
-    url: "/more",
-    id: "5",
-  },
 ];
 function Header() {
   return (
