@@ -84,6 +84,7 @@ export default function RootLayout({
         className={`${ttContrastRegular.className} ${ttContrastCondensed.variable} ${ttContrastExtended.variable} antialiased`}
       >
         <div className="p-5 md:p-7 pb-0 md:pb-0 overflow-x-scroll">
+          {/* <div className="p-5 md:p-7 pb-0 md:pb-0"> */}
           <Header />
           {children}
           <Footer />
