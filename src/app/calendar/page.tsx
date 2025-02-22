@@ -4,7 +4,7 @@ import Year from "@/components/calendar/year/year";
 export default function Calendar() {
   return (
     <div className="p-6 mt-16">
-      {/* <Month /> */}
+      <Month />
       <div className="mt-6">
         <Year />
       </div>
