@@ -9,7 +9,7 @@ function Content() {
 
   useLayoutEffect(() => {
     const observer = new ResizeObserver((entries) => {
-      for (let entry of entries) {
+      for (const entry of entries) {
         if (entry.target === firstRightImageRef.current) {
           const textElement = firstRightImageRef.current.querySelector("p");
           const textHeight = textElement ? textElement.offsetHeight : 0;
