@@ -28,34 +28,46 @@ function Content() {
 
   const images = [
     {
-      src: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/23/21/Messi1.jpg?quality=75&width=1368&auto=webp",
-      alt: "messi goal 1",
+      src: "https://static.standard.co.uk/2021/09/28/21/newFile-2.jpg?crop=8:5,smart&quality=75&auto=webp&width=1000",
+      vs: "Manchester City",
+      minute: "08:34",
+      alt: "First goal for Paris Saint-Germain",
+    },
+    {
+      src: "https://media.gettyimages.com/id/109864820/es/foto/barcelona-spain-goalkeeper-manuel-almunia-of-arsenal-fails-to-stop-lionel-messi-of-barcelona.jpg?s=2048x2048&w=gi&k=20&c=mumcwXTYswG4Gy8GYWSdTJRl8NNWfusKVJtuTSl6QdM=",
+      alt: "First goal vs Arsenal on Champions League 2011",
+      vs: "FC Arsenal",
+      minute: "64:34",
     },
     {
       src: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/23/21/Messi1.jpg?quality=75&width=1368&auto=webp",
+      vs: "",
+      minute: "",
       alt: "messi goal 2",
     },
     {
       src: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/23/21/Messi1.jpg?quality=75&width=1368&auto=webp",
-      alt: "messi goal 3",
-    },
-    {
-      src: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/23/21/Messi1.jpg?quality=75&width=1368&auto=webp",
+      vs: "",
+      minute: "",
       alt: "messi goal 4",
     },
     {
       src: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/23/21/Messi1.jpg?quality=75&width=1368&auto=webp",
+      vs: "",
+      minute: "",
       alt: "messi goal 5",
     },
     {
       src: "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/23/21/Messi1.jpg?quality=75&width=1368&auto=webp",
+      vs: "",
+      minute: "",
       alt: "messi goal 6",
     },
   ];
 
   return (
     <main
-      className="relative md:px-5 lg:px-48"
+      className="relative md:px-5 lg:px-48 mt-40"
       style={{ marginBottom: marginTop * 2 }}
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4">
@@ -76,10 +88,10 @@ function Content() {
           >
             <Image src={image.src} alt={image.alt} width={700} height={700} />
             <p>
-              {image.alt} && {index} <br />
-              {image.alt} && {index}
+              {image.alt} <br />
+              {image.vs}
               <br />
-              {image.alt} && {index}
+              {image.minute}
             </p>
           </div>
         ))}

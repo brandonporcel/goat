@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {hostname: "static.independent.co.uk",},
+      {hostname: "static.standard.co.uk",},
+      {hostname: "media.gettyimages.com",},
     ],
   }
 };
