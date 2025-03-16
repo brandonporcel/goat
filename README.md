@@ -2,7 +2,7 @@
 
 # GOAT
 
-Listado de todos los goles en la carrera de Lionel Andrés Messi Cuccittini. Diseño por (https://taigatakahashi.com/)[https://taigatakahashi.com/]
+Listado de todos los goles en la carrera de Lionel Andrés Messi Cuccittini. Diseño por [https://taigatakahashi.com/](https://taigatakahashi.com/)
 
 ## Instalación
 
@@ -16,7 +16,7 @@ npm run dev
 ## TODO
 
 - implementar datos de csv. usar papaparse
-- transition views como (https://shu-gallery.vercel.app/)[https://shu-gallery.vercel.app/]
+- transition views como [https://shu-gallery.vercel.app/](https://shu-gallery.vercel.app/)
 - calendario
   - cuando cliquas un dia te aparece una lista de los goles que hizo messi en esa fecha
   - mapa de calor por cantidad
@@ -44,14 +44,14 @@ npm run dev
 ### DATA
 
 - stats for specific dates, like your bd!
-  - (https://www.messistats.com/en/date/0/0/6/14/all/t/0/1)[https://www.messistats.com/en/date/0/0/6/14/all/t/0/1]
+  - [https://www.messistats.com/en/date/0/0/6/14/all/t/0/1](https://www.messistats.com/en/date/0/0/6/14/all/t/0/1)
 - all club goals data
-  - (https://www.kaggle.com/datasets/azminetoushikwasi/-lionel-messi-all-club-goals)[https://www.kaggle.com/datasets/azminetoushikwasi/-lionel-messi-all-club-goals]
+  - [https://www.kaggle.com/datasets/azminetoushikwasi/-lionel-messi-all-club-goals](https://www.kaggle.com/datasets/azminetoushikwasi/-lionel-messi-all-club-goals)
 - all goals videos
-  - (https://d2d6f098uopzs3.cloudfront.net/Goal2.mp4)[https://d2d6f098uopzs3.cloudfront.net/Goal2.mp4]
-  - (https://www.messiallgoals.com/)[https://www.messiallgoals.com/]
+  - [https://d2d6f098uopzs3.cloudfront.net/Goal2.mp4](https://d2d6f098uopzs3.cloudfront.net/Goal2.mp4)
+  - [https://www.messiallgoals.com/](https://www.messiallgoals.com/)
 - video con todos los goles
-  - (https://www.youtube.com/watch?v=IscGtF_A14A)[https://www.youtube.com/watch?v=IscGtF_A14A]
+  - [https://www.youtube.com/watch?v=IscGtF_A14A](https://www.youtube.com/watch?v=IscGtF_A14A)
 
 ## Contribuciones
 
@@ -59,4 +59,4 @@ Las contribuciones son siempre bienvenidas. No dudes en enviar incidencias o pul
 
 ## Feedback
 
-Me encantaría leer tu opinion. Escribime por [mail](brandon7.7porcel@gmail.com) o [linkedin](https://www.linkedin.com/in/brandonporcel/)!
+Me encantaría leer tu opinion. Escribime por [mail](brandon7.7porcel@gmail.com) o [linkedin](https://www.linkedin.com/in/brandonporcel/])
